@@ -1,9 +1,9 @@
 
 {
-  "name":"BMW-MD",
+  "name":"BWM-XMD",
   "description":"Best whatsapp bot developed by Ibrahim adams",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/0c225f7da5616cdcbec80.jpg",
+  "logo":"https://files.catbox.moe/h2ydge.jpg",
   "repository":"https://github.com/ekitale/maths-project",
   "succes_url":"/",
   "stack":"heroku-24",
@@ -14,6 +14,25 @@
       "value":".",
       "required":true
     },
+"AUTO_REACT":
+    {
+      "description":"Enter yes for your bot to auto react",
+      "value":"no",
+      "required":false
+    },
+"ANTICALL":
+    {
+      "description":"Enter yes for your bot to auto reject calls",
+      "value":"no",
+      "required":false
+    },
+"AUTO_BIO":
+    {
+      "description":"Enter yes for your bot to auto bio",
+      "value":"no",
+      "required":false
+    },
+
     "AUTO_READ_STATUS":
     {
       "description":"Your status will be reading automatically(type yes to active or no to deactive  ; don't write in capital letter)",
@@ -41,14 +60,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"BMW-MD",
+      "value":"BWM-XMD",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/mapo8v.mp4",
+      "value":"https://files.catbox.moe/h2ydge.jpg",
       "required":false
        
      },
